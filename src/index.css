@@ -5,9 +5,80 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:url('https://img.freepik.com/foto-gratis/carretera-amplia-edificios-lados_1127-2188.jpg?w=996&t=st=1663021786~exp=1663022386~hmac=d863df9dfaef7cefecda80f3cea6a6f284f83ae9f38961784427c0baa9a87135') no-repeat center center fixed;
+  background-size: cover;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.nav{
+  background-color: #4242427e;
+  display:flex;
+  align-items: center;
+  text-align:justify;
+  color: white;
+}
+.nav h2{
+  font-weight:bolder;
+  margin-left:2.2rem;
+}
+.signIn{
+  font-weight:100;
+}
+
+.signIn{
+  color: white;
+  background:none;
+  font-size: 18px;
+  height: 3em;
+  width: 186px;
+  border-style: hidden;
+  
+ 
+}
+
+.midTitles{
+  color: black;
+margin-top: 3%;
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: small;
+}
+.midTitles h1{
+  font-size: 32px;
+  font-weight:bold;
+}
+.midTitles p{
+  margin-top: 19%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottomBtn{
+  display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.btnLanding{
+  color: white;
+  background-color: #313131e0;
+  margin: 2.5em;
+  width: 284px;
+  height: 40px;
+  border-style: hidden;
+  border-radius: 20px;
+
+}
+.contrata{
+  background-color: #f6f6f6e0;
+  color: black;
 }
